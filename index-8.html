@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SMART VINS LOGISTICS — freight forwarding and logistics solutions in Malaysia and internationally. Contact us for an enquiry or freight quote.">
+<meta name="theme-color" content="#071b35">
+<title>SMART VINS LOGISTICS | Your Cargo, Our Priority</title>
+<style>
+:root{--navy:#071b35;--blue:#1268b3;--cyan:#28b8d5;--ink:#17283d;--muted:#607187;--pale:#f1f6fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}
+header{background:rgba(7,27,53,.97);color:white;position:sticky;top:0;z-index:10;box-shadow:0 4px 20px #00152b30}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.6px}.mark{width:42px;height:42px;border:2px solid var(--cyan);border-radius:11px;display:grid;place-items:center;color:var(--cyan);font-weight:900;font-size:19px}.brand small{display:block;color:#b8c9da;font-size:10px;letter-spacing:2px;font-weight:600}.links{display:flex;gap:25px;font-size:14px;color:#e1eaf3}.links a:hover{color:var(--cyan)}.menu{display:none;background:none;border:1px solid #ffffff55;color:white;padding:8px 12px;border-radius:8px}
+.hero{background:linear-gradient(110deg,rgba(4,20,41,.94),rgba(8,47,83,.77)),url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=2000&q=85') center/cover;color:white;padding:112px 0 105px}.eyebrow{color:#70d9eb;text-transform:uppercase;letter-spacing:2.5px;font-size:12px;font-weight:800}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.05;max-width:760px;margin:18px 0}.hero h1 span{color:#58d0e5}.hero p{font-size:18px;color:#d4e0ec;max-width:650px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:14px 22px;border-radius:7px;font-weight:700;font-size:14px;transition:.2s}.primary{background:var(--cyan);color:#06213c}.primary:hover{background:#7be2ef;transform:translateY(-2px)}.outline{border:1px solid #d7e6f4;color:white}.outline:hover{background:#ffffff18}
+.strip{background:#0d2c4e;color:white}.stripgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:22px 0}.stripitem{display:flex;align-items:center;gap:12px;font-size:14px}.stripitem b{display:block;color:#fff}.stripitem span{color:#bfd0df;font-size:12px}.symbol{width:38px;height:38px;border-radius:9px;background:#ffffff14;display:grid;place-items:center;color:#5bd3e7;font-size:19px}
+section{padding:82px 0}.sectionhead{text-align:center;max-width:700px;margin:0 auto 42px}.sectionhead .eyebrow{color:var(--blue)}h2{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:10px 0 13px;color:var(--navy)}.sectionhead p{color:var(--muted);margin:0}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.aboutvisual{min-height:390px;border-radius:16px;background:linear-gradient(0deg,#061b35a8,#061b3520),url('https://images.unsplash.com/photo-158652_?auto=format&fit=crop&w=1200&q=80') center/cover,#dce8f2;position:relative;overflow:hidden}.aboutvisual:after{content:"SMART VINS LOGISTICS";position:absolute;bottom:25px;left:25px;color:white;font-weight:800;letter-spacing:2px}.aboutcopy p{color:var(--muted)}.ticks{list-style:none;padding:0;margin:25px 0}.ticks li{margin:12px 0;padding-left:27px;position:relative}.ticks li:before{content:"✓";position:absolute;left:0;color:var(--blue);font-weight:900}
+.services{background:var(--pale)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;padding:27px;border-radius:13px;border:1px solid #e1eaf2;box-shadow:0 8px 25px #0b2b4a08}.card .ico{width:49px;height:49px;border-radius:12px;background:#e8f6fb;color:var(--blue);display:grid;place-items:center;font-size:24px;margin-bottom:18px}.card h3{margin:0 0 8px;color:var(--navy);font-size:19px}.card p{margin:0;color:var(--muted);font-size:14px}
+.whygrid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.why{text-align:center;padding:18px}.why .ico{font-size:29px;color:var(--blue)}.why h3{font-size:16px;color:var(--navy);margin:10px 0 5px}.why p{font-size:13px;color:var(--muted);margin:0}
+.cta{background:linear-gradient(110deg,#08213e,#105b91);color:white;text-align:center;padding:70px 0}.cta h2{color:white}.cta p{color:#d1e1ef;max-width:650px;margin:0 auto 24px}
+.contact{background:#f7f9fc}.contactgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px}.contactbox,.formbox{background:white;border:1px solid #e2eaf1;border-radius:14px;padding:30px}.contactline{display:flex;gap:14px;margin:22px 0;align-items:flex-start}.contactline .ico{color:var(--blue);font-size:21px}.contactline small{display:block;color:var(--muted)}.contactline a{font-weight:700;color:var(--navy)}label{display:block;font-size:13px;font-weight:700;margin:13px 0 6px}input,textarea,select{width:100%;padding:12px 13px;border:1px solid #d7e1eb;border-radius:7px;font:inherit;font-size:14px;background:#fff}textarea{min-height:105px;resize:vertical}.formrow{display:grid;grid-template-columns:1fr 1fr;gap:14px}.formbox button{border:0;cursor:pointer;margin-top:17px;width:100%}.note{font-size:11px;color:var(--muted);margin-top:10px}
+footer{background:#06172c;color:#c4d2e0;padding:35px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.foot strong{color:white}.foot small{color:#93a9bd}
+.wa{position:fixed;right:20px;bottom:20px;background:#20bd69;color:white;border-radius:50px;padding:14px 18px;font-weight:800;box-shadow:0 8px 25px #001b2c35;z-index:9}
+@media(max-width:800px){.links{display:none;position:absolute;top:76px;left:0;right:0;background:var(--navy);padding:20px;flex-direction:column}.links.open{display:flex}.menu{display:block}.hero{padding:82px 0}.stripgrid{grid-template-columns:1fr}.aboutgrid,.contactgrid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.whygrid{grid-template-columns:repeat(2,1fr)}.aboutvisual{min-height:280px}}
+@media(max-width:520px){section{padding:60px 0}.cards{grid-template-columns:1fr}.formrow{grid-template-columns:1fr}.hero p{font-size:16px}.wa{right:12px;bottom:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="mark">SV</span><span>SMART VINS LOGISTICS<small>YOUR CARGO • OUR PRIORITY</small></span></a>
+<button class="menu" onclick="document.querySelector('.links').classList.toggle('open')" aria-label="Toggle menu">☰</button>
+<nav class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#why">Why Us</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="eyebrow">Malaysia & International Logistics</div>
+<h1>Moving your business forward, <span>one shipment at a time.</span></h1>
+<p>Practical freight and logistics support for businesses moving cargo across Malaysia and international markets.</p>
+<div class="actions"><a class="btn primary" href="#contact">Request a Quote&nbsp; →</a><a class="btn outline" href="https://wa.me/60169023051?text=Hello%20SMART%20VINS%20LOGISTICS%2C%20I%20would%20like%20to%20make%20a%20logistics%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+</div></section>
+<div class="strip"><div class="wrap stripgrid">
+<div class="stripitem"><div class="symbol">🌏</div><div><b>Malaysia & Global Reach</b><span>Local and international enquiries</span></div></div>
+<div class="stripitem"><div class="symbol">📦</div><div><b>Freight Solutions</b><span>Air, sea and land freight enquiries</span></div></div>
+<div class="stripitem"><div class="symbol">🤝</div><div><b>Customer Focus</b><span>Responsive communication and support</span></div></div>
+</div></div>
+<section id="about"><div class="wrap aboutgrid">
+<div class="aboutvisual" role="img" aria-label="Cargo containers at a logistics port"></div>
+<div class="aboutcopy"><div class="eyebrow">Who We Are</div><h2>Logistics support built around your cargo.</h2>
+<p>SMART VINS LOGISTICS supports businesses with freight forwarding and logistics enquiries in Malaysia and internationally. We aim to make cargo movement easier through clear communication, practical coordination and service-focused support.</p>
+<p>Whether you are planning an import, export or distribution movement, talk to us about your requirements.</p>
+<ul class="ticks"><li>Malaysia-based business coverage</li><li>International shipment enquiries</li><li>Solutions across multiple transport modes</li></ul>
+<a class="btn primary" href="#contact">Talk to our team</a></div>
+</div></section>
+<section class="services" id="services"><div class="wrap"><div class="sectionhead"><div class="eyebrow">What We Do</div><h2>Our Logistics Services</h2><p>Explore our service areas and contact us to discuss the right arrangement for your shipment.</p></div>
+<div class="cards">
+<article class="card"><div class="ico">✈</div><h3>Air Freight</h3><p>Air cargo solutions for time-sensitive shipments and international movements.</p></article>
+<article class="card"><div class="ico">🚢</div><h3>Sea Freight (FCL & LCL)</h3><p>Full Container Load and Less than Container Load shipment enquiries for import and export cargo.</p></article>
+<article class="card"><div class="ico">🚚</div><h3>Land Freight</h3><p>Road transportation enquiries for domestic and cross-border cargo movements.</p></article>
+<article class="card"><div class="ico">🏬</div><h3>Warehousing & Distribution</h3><p>Storage, handling and distribution coordination enquiries for business cargo.</p></article>
+<article class="card"><div class="ico">📋</div><h3>Customs Clearance – Import & Export</h3><p>Enquiries and coordination support for import and export customs clearance requirements.</p></article>
+<article class="card"><div class="ico">🛩</div><h3>Aerospace Logistics</h3><p>Logistics enquiries for aerospace-related cargo, components and time-sensitive movements.</p></article>
+</div></div></section>
+<section id="why"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Why Smart Vins</div><h2>A straightforward logistics partner</h2><p>We focus on understanding your shipment requirements and keeping communication clear.</p></div>
+<div class="whygrid">
+<div class="why"><div class="ico">🌐</div><h3>International Focus</h3><p>Support for Malaysia and international logistics enquiries.</p></div>
+<div class="why"><div class="ico">💬</div><h3>Clear Communication</h3><p>Direct contact to discuss shipment details and next steps.</p></div>
+<div class="why"><div class="ico">🧭</div><h3>Practical Coordination</h3><p>Explore suitable freight and logistics arrangements.</p></div>
+<div class="why"><div class="ico">📦</div><h3>Multiple Services</h3><p>One point of contact across our listed service areas.</p></div>
+</div></div></section>
+<section class="cta"><div class="wrap"><div class="eyebrow">Let's Move Your Cargo</div><h2>Have a shipment to discuss?</h2><p>Share your origin, destination, cargo type and preferred shipping timeline. We will be glad to receive your enquiry.</p><a class="btn primary" href="#contact">Send an Enquiry</a></div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Get In Touch</div><h2>Contact SMART VINS LOGISTICS</h2><p>Reach out for service information or a freight quotation enquiry.</p></div>
+<div class="contactgrid"><div class="contactbox"><h3>Let's talk logistics</h3>
+<div class="contactline"><div class="ico">☎</div><div><small>WhatsApp / Phone</small><a href="https://wa.me/60169023051" target="_blank" rel="noopener">+60 16-902 3051</a></div></div>
+<div class="contactline"><div class="ico">✉</div><div><small>Email</small><a href="mailto:smartvinse@gmail.com">smartvinse@gmail.com</a></div></div>
+<div class="contactline"><div class="ico">📍</div><div><small>Coverage</small><b>Malaysia & International</b></div></div>
+<p class="note">Please contact us to confirm service availability, routing, rates and operational requirements for your shipment.</p>
+</div>
+<div class="formbox"><h3>Request a Freight Quote</h3>
+<form id="quoteForm">
+<div class="formrow"><div><label for="name">Your name *</label><input id="name" name="name" required placeholder="Full name"></div><div><label for="company">Company</label><input id="company" name="company" placeholder="Company name"></div></div>
+<div class="formrow"><div><label for="email">Email *</label><input id="email" name="email" type="email" required placeholder="you@company.com"></div><div><label for="phone">Phone / WhatsApp</label><input id="phone" name="phone" placeholder="+60"></div></div>
+<div class="formrow"><div><label for="service">Service required</label><select id="service" name="service"><option>Air Freight</option><option>Sea Freight (FCL & LCL)</option><option>Land Freight</option><option>Warehousing & Distribution</option><option>Customs Clearance – Import & Export</option><option>Aerospace Logistics</option><option>Other / Not sure</option></select></div><div><label for="route">Origin & destination</label><input id="route" name="route" placeholder="e.g. Kuala Lumpur to Singapore"></div></div>
+<label for="details">Cargo details / message *</label><textarea id="details" name="details" required placeholder="Cargo type, dimensions or weight, quantity and preferred shipping date..."></textarea>
+<button class="btn primary" type="submit">Prepare Email Enquiry →</button><div class="note">This form opens your email app with the enquiry details filled in. It does not submit or store your information on this website.</div>
+</form></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>SMART VINS LOGISTICS</strong><br><small>YOUR CARGO • OUR PRIORITY</small></div><small>© <span id="year"></span> SMART VINS LOGISTICS. All rights reserved.</small></div></footer>
+<a class="wa" href="https://wa.me/60169023051?text=Hello%20SMART%20VINS%20LOGISTICS%2C%20I%20have%20a%20shipment%20enquiry." target="_blank" rel="noopener">WhatsApp ↗</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('quoteForm').addEventListener('submit',function(e){
+ e.preventDefault();const f=new FormData(this);const subject=encodeURIComponent('Freight Quote Enquiry - SMART VINS LOGISTICS');
+ const body=encodeURIComponent('Name: '+f.get('name')+'\nCompany: '+f.get('company')+'\nEmail: '+f.get('email')+'\nPhone: '+f.get('phone')+'\nService: '+f.get('service')+'\nOrigin & destination: '+f.get('route')+'\n\nCargo details / message:\n'+f.get('details'));
+ window.location.href='mailto:smartvinse@gmail.com?subject='+subject+'&body='+body;
+});
+</script>
+</body></html>
